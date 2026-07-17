@@ -27,7 +27,7 @@ pkg install python git -y
 ### 2. Kloning Repositori
 Unduh kodingan bot ini dari GitHub ke Termux Anda:
 ```bash
-git clone https://github.com
+git clone https://github.com/miamorgvn/Discord-Downloader-Bot.git
 cd discord-downloader
 ```
 
