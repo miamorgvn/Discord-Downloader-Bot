@@ -81,7 +81,7 @@ If you make manual changes or want to pull the latest updates into your reposito
 ### Push changes to GitHub (After editing files manually):
 ```bash
 git add .
-git commit -m "Update requirements.txt and README.md with Ichimiwa Bot rebranding"
+git commit -m "explain what you changed/updated"
 git push origin main
 ```
 
