@@ -1,17 +1,17 @@
-# Ichimiwa Bot - Universal Discord Downloader & Utility Bot
+# IchimiwaDL - Premium Media Downloader & Server Moderator
 
-A versatile Python-based Discord bot designed to manage server greetings and automatically detect, fetch, and download media (videos/photos) from various major social media platforms directly into Discord chat channels. 
+A powerful Python-based Discord bot featuring a high-performance media downloader that bypasses standard restrictions to fetch large files, alongside essential server moderation utilities.
 
-The official repository for this project can be accessed at [GitHub - miamorgvn/Ichimiwa-Bot](https://github.com/miamorgvn/Ichimiwa-Bot.git).
+The official repository for this project can be accessed at [GitHub - miamorgvn/IchimiwaDL](https://github.com/miamorgvn/IchimiwaDL.git).
 
 ## 🚀 Key Features
 
-* **Multi-Platform Support**: Download video and media content from popular platforms (Instagram, TikTok, YouTube Shorts, Twitter/X, etc.).
-* **Universal Link Parser**: Smart system that automatically detects media links in chat without needing manual commands.
-* **Large File Handling**: Built to process and support high-quality video downloads of **up to 500MB** efficiently.
-* **Welcome & Goodbye System**: Automatically greets new members upon joining and sends a departure message when they leave the server.
-* **Session & Cookie Management**: Uses local session file management to bypass platform encryption limits and securely download private content.
-* **Secure Environment**: Protects sensitive credentials using environment variable encapsulation (`.env`).
+* **Monster File Downloads (1GB+)**: Bypasses standard upload restrictions to automatically detect, fetch, and deliver large videos/media (1GB+ and any video type) straight into your chat, even for completely free Discord users.
+* **Multi-Platform Support**: Seamlessly extracts high-quality video content from all major social media platforms (Instagram, TikTok, YouTube Shorts, Twitter/X, and more).
+* **Universal Link Parser**: Smart automatic detection of media links inside the text channels without needing any repetitive manual trigger words.
+* **Server Moderation**: Keeps your community clean and safe using optimized slash commands like `/kick`, `/ban`, and other necessary admin utilities.
+* **Session & Cookie Management**: Employs locally managed session configurations to jump platform encryption blocks and download private videos safely.
+* **Secure Environment**: Keeps all your important developer keys and Discord bot tokens safe inside an isolated environment variable file (`.env`).
 
 ## 🛠️ Tech Stack
 
@@ -28,7 +28,7 @@ Before setting up the bot, you **MUST** install Python and the necessary system 
 #### For Termux:
 ```bash
 pkg update && pkg upgrade -y
-pkg install python git clang libjpeg-turbo -y
+pkg install python git clang -y
 ```
 
 #### For Debian/Ubuntu:
@@ -44,7 +44,7 @@ sudo apt install python3 python3-pip git clang -y
 #### 1. Clone the Repository
 Download the bot source code to your environment. You can change `your-folder-name` at the end of the command to any short name you prefer:
 ```bash
-git clone https://github.com/miamorgvn/Ichimiwa-Bot.git your-folder-name
+git clone https://github.com/miamorgvn/IchimiwaDL.git your-folder-name
 cd your-folder-name
 ```
 
@@ -72,21 +72,4 @@ Now the bot is ready to start. Run it using the following command:
 python bot.py
 ```
 
----
-
-## 🔄 How to Update
-
-If you make manual changes or want to pull the latest updates into your repository, use the following commands:
-
-### Push changes to GitHub (After editing files manually):
-```bash
-git add .
-git commit -m "explain what you changed/updated"
-git push origin main
-```
-
-### Pull latest updates from GitHub to your device:
-```bash
-git pull origin main
-pip install -r requirements.txt --upgrade
-```
+--
