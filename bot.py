@@ -20,10 +20,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 # =========================================================
 # ID CONFIGURATION
 # =========================================================
-CHANNEL_RULES = 1519952696919068754
-CHANNEL_TAKE_ROLES = 871753041387327608
 OWNER_ROLE_ID = 871744219298037811
-LOG_CHANNEL_ID = 1520228633808081047
 
 def is_owner(interaction: discord.Interaction):
     role = interaction.guild.get_role(OWNER_ROLE_ID)
